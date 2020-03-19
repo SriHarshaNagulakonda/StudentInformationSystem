@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fac_bg"
+    tools:context=".Faculty" >
+
+    
+    <ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="vertical">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="476dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton1"
+            android:layout_centerHorizontal="true"
+              android:layout_marginTop="20dp"
+              android:textColor="@color/white"
+            android:text="Submit Attendence" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignRight="@+id/button1"
+             android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/button1"
+            android:text="Change Password" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignRight="@+id/button3"
+            android:layout_below="@+id/button3"
+             android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="Submit Marks" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignRight="@+id/button4"
+          android:layout_marginTop="20dp"
+           android:textColor="@color/white"
+            android:layout_below="@+id/button4"
+            android:text="Give Assignment" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+              android:textColor="@color/white"
+            android:text="Courses" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+             android:textColor="@color/white"
+              android:layout_marginTop="20dp"
+            android:text="Logout" />
+
+        
+        
+        </LinearLayout></ScrollView>
+  
+</RelativeLayout>

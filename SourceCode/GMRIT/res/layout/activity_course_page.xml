@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fac_bg"
+    tools:context=".Student_assignment" >
+    <ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:scrollbars="vertical">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="476dp"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+    
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:textColor="@color/white"
+        android:background="@color/editTextBack"
+        android:layout_alignParentTop="true" />
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@+id/spinner1"
+        android:background="@color/editTextBack"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white" />
+    
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
